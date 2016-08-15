@@ -10,8 +10,8 @@ Clone this project to a local directory(let's say name it **gripd**), change to 
 
 ###  How to Use
 
-- Copy the markdown file you want to preview as **gripd/markdown/README.md**.
-- Run `docker-compose up` inside **gripd/markdown** to run the docker container.
+- Copy the markdown file you want to preview as **gripd/preview/markdown/README.md**.
+- Run `docker-compose up` inside **gripd/preview/markdown** to run the docker container.
 - Open your browser and go to *http://localhost:8081* to check the rendered page.
 - Edit the markdown file and the changes you make to the **Readme.md** will be instantly reflected in the browser.
 
