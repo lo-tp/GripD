@@ -1,0 +1,10 @@
+grip:
+    container_name: grip
+    build: .
+    dockerfile: ./dockerfiles/grip.dockerfile
+    command:  grip  0.0.0:80
+    restart: always                      
+    ports:
+        - "8081:80"
+    volumes:
+        - ./markdown:/tmp/markdown
