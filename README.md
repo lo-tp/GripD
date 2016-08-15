@@ -1,4 +1,4 @@
-## Gripd -- Dockerize Grip
+## GripD -- Dockerize Grip
 
 [Grip](https://github.com/joeyespo/grip) is a python tool used to render local markdown files with styles coming directly from Github.
 
